@@ -67,6 +67,7 @@ const Board = () => {
         </div>  
       ) : (
           <div className='board'>
+            {/*add dropdowns for sorting and filtering cards on the board*/}
             <button type='button' id='create-ticket-link'>
               <Link to='/create' >New Ticket</Link>
             </button>
